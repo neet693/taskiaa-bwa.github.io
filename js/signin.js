@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (result.success) {
       localStorage.setItem("usernameLoggedIn", usernameByInput);
-      return (window.location.href = "../tasks.html");
+      return (window.location.href =
+        "../https://neet693.github.io/taskiaa-bwa.github.io/tasks.html");
+      // return (window.location.href = "../tasks.html");
     } else {
       alert(result.message);
     }
